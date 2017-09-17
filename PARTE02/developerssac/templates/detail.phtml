@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slim 3</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <style>
+            body {
+                margin: 50px 0 0 0;
+                padding: 0;
+                width: 100%;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                text-align: center;
+                color: #aaa;
+                font-size: 18px;
+            }
+
+            h1 {
+                color: #719e40;
+                letter-spacing: -3px;
+                font-family: 'Lato', sans-serif;
+                font-size: 100px;
+                font-weight: 200;
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Developers SAC</h1>
+        <div>Detalle del usuario</div> 
+        <table class="table table-hover text-left">
+            <thead>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>                
+            </thead>
+            </body>
+            <tr>
+                <td>Name</td><td><?php echo $name;  ?></td>
+            </tr>
+            <tr>
+                <td>Email</td><td><?php echo $email;  ?></td>
+            </tr>
+            <tr>                
+                <td>Phone</td><td><?php echo $phone;  ?></td>
+            </tr>
+            <tr>                
+                <td>Address</td><td><?php echo $address;  ?></td>
+                            </tr>
+            <tr>
+                <td>Position</td><td><?php echo $position;  ?></td>
+                            </tr>
+            <tr>
+                <td>Salary</td><td><?php echo $salary;  ?></td>
+            </tr>
+            <tr>                
+                <td>Skills</td><td><?php echo $skills;  ?></td>
+            </tr>
+            </tbody>
+            <thead>
+                <tr><td colspan="2" class="text-center"><a href="javascript:history.back()" class="btn btn-large btn-primary">Volver</a></td></tr>
+            </thead>
+        </table>        
+    </body>
+</html>
